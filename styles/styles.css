@@ -1,0 +1,126 @@
+/* 
+Primary color: #4CAF50
+Secondary: #F4F4F4 
+Accent #1: #FF8A5C
+Accent #2: #333333
+Heading Font: Poppins
+Paragraph Font: Open sans
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ---------- FONTS ---------- */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #F4F4F4;
+    color: #333333;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+}
+
+.logo img{
+    max-width: 150px;
+
+}
+
+.navbar nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar nav a:hover {
+    color: #4CAF50;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.hero-img {
+    width: 80%;
+    height: 260px;
+    background: #e3e3e3;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.about {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.featured {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.recipe-card {
+    background: white;
+    padding: 18px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.recipe-card .img {
+    background: #e3e3e3;
+    height: 160px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.recipe-card h3 {
+    font-family: 'Poppins', sans-serif;
+    margin: 8px 0;
+}
+
+.recipe-card p {
+    font-size: 14px;
+    line-height: 1.4;
+}
