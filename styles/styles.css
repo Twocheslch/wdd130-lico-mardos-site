@@ -9,7 +9,6 @@ Paragraph Font: Open sans
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* ---------- FONTS ---------- */
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -17,13 +16,13 @@ body {
     color: #333333;
 }
 
-/* ---------- NAVBAR ---------- */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
     background: white;
+    
 }
 
 .logo img{
@@ -58,10 +57,14 @@ body {
 
 .hero-img {
     width: 80%;
-    height: 260px;
-    background: #e3e3e3;
+    /* height: 260px; */
+    background: #4CAF50;
     margin: auto;
     border-radius: 8px;
+}
+
+.hero-img img{
+    margin: 2em;
 }
 
 .about {
@@ -108,9 +111,11 @@ body {
     text-align: left;
 }
 
-.recipe-card .img {
+.recipe-card img {
     background: #e3e3e3;
-    height: 160px;
+    max-height: 340px;
+    width: 285px;
+    
     border-radius: 6px;
     margin-bottom: 12px;
 }
